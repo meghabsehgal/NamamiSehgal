@@ -88,6 +88,15 @@ h1, h2, h3 {
     margin-top: 10px;
     color: #555;
 }
+.book-cover {
+    display: block;
+    margin: 20px auto; /* Center the image */
+    max-width: 100%; /* Ensure it scales well */
+    height: auto;
+    border: 2px solid #ddd; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
 
 .button {
     background-color: #6200ea;
